@@ -1,0 +1,27 @@
+.container{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 50%;
+	height: 50%;
+    flex-direction: column;
+    background-color: black;
+    box-sizing: content-box;
+    margin: 450px;
+    padding: 50px;
+}
+.counter{
+	font-size: 100px;
+	font-weight: bold;
+	color: red;
+	margin: 15px;
+}
+button{
+	margin: 30px;
+	font-size: 20px;
+	border-color: red;
+	color: red;
+	cursor: pointer;
+	padding: 20px;
+    border-radius: 25px;
+}
